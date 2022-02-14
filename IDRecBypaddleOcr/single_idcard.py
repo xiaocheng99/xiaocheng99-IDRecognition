@@ -105,7 +105,7 @@ def identity_OCR(reversePath,frontPath):
         save_path = result['save_path']
         for infomation in data:
             resultStr = resultStr+infomation['text']
-    print(resultStr)
+    #print(resultStr)
 
     #进行数据提取 返回字典
     mregeDict =getInformation(resultStr)
